@@ -17,6 +17,15 @@
     flex-direction: row;
     justify-content: center;
 }
+.contacts{
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    background-color: #EDA93E;
+    height: 50px;
+    justify-content: center;
+    align-items:center;
+}
 .avatar{
     height: 300px;
     width: 300px;
@@ -24,6 +33,16 @@
 .avatar-div{
     height: 300px;
     width: 300px;
+    background-color: #FDECD8;
+}
+a img {
+    padding-left: 5px;
+    height: 25px;
+    filter: brightness(120%) sepia(70%);
+}
+a img:hover {
+    padding-left: 5px;
+    transform: scale(1.2);
 }
 .right-top {
     height: 300px;
@@ -34,21 +53,15 @@
     text-align: center;
     color: #694D2E;
 }
-.contacts{
-    width: 900px;
-    text-align: center;
-    background-color: #EDA93E;
-    height: 60px;
 
-}
 h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bolder;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Press Start 2P', cursive;
     color: #62361b;
 }
 h2 {
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 
@@ -58,11 +71,11 @@ h2 {
         width: 150px;
     }
     .avatar-div{
-        height: 150px;
+        height: 250px;
         width: 150px;
     }
     .right-top{
-        height: 150px;
+        height: 250px;
     }
     h1 {
         font-size: 1.3rem;
@@ -72,6 +85,12 @@ h2 {
     }
     .contacts{
         height: 25px;
+        width: 750px;
 
     }
+    a img {
+        padding-left: 5px;
+        height: 15px;
+    }
+
 }
