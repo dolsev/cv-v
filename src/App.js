@@ -9,14 +9,15 @@ function App() {
 
   return (
       <div>
-        <BrowserRouter>
-          <Navbar  />
-          <Routes>
-            <Route path="/" element={<Main />}></Route>
-            <Route path="*" element={<Navigate replace to="/404"/>}/>}
-            <Route path="/404" element={<Error />} />
-          </Routes>
-        </BrowserRouter>
+              <BrowserRouter>
+                  <Navbar/>
+                  <Routes>
+                      <Route path="/" element={<Main />}></Route>
+                      <Route path="*" element={<Navigate replace to="/404"/>}/>}
+                      <Route path="/404" element={<Error />} />
+                  </Routes>
+              </BrowserRouter>
+
       </div>
   )
 }
