@@ -12,7 +12,7 @@ public directory contains the public assets such as index.html, images etc.
 
 Features:
 
-Home page contains basic information about yourself.
+Top of page contains basic information about yourself.
 Skills page contains your professional skills and technologies you are familiar with.
 Experience & Education page contains a list of your work experience and education.
 Projects page contains a list of your projects.
