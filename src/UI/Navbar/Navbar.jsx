@@ -21,16 +21,16 @@ const Navbar = ()=>{
             <div
                 className={isNavExpanded?'navigation-menu expanded':'navigation-menu'}>
                 <ul>
-                    <li>
+                    <li onClick={()=>setIsNavExpanded(!isNavExpanded)}>
                         <Link to='/'>My Skills</Link>
                     </li>
-                    <li>
+                    <li onClick={()=>setIsNavExpanded(!isNavExpanded)}>
                         <Link to='/experience'>Experience&Education</Link>
                     </li>
-                    <li>
+                    <li onClick={()=>setIsNavExpanded(!isNavExpanded)}>
                         <Link to='/projects'>Projects</Link>
                     </li>
-                    <li>
+                    <li onClick={()=>setIsNavExpanded(!isNavExpanded)}>
                         <Link to='/personal'>Personal</Link>
                     </li>
                 </ul>
