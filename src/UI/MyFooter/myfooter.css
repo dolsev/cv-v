@@ -1,0 +1,17 @@
+.copyright-text {
+    font-size: smaller;
+    display: inline-block;
+    margin-left: 20px;
+    color: #FDECD8;
+}
+.my-footer{
+    display: flex;
+    padding: 10px;
+    border: 2px solid #FDECD8;
+    width: 876px;
+}
+
+.footer-icons {
+    filter: brightness(100%) sepia(10%);
+
+}

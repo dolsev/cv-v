@@ -13,9 +13,7 @@ const Navbar = ()=>{
                     fill="white"
                 >
                     <path
-                        fillRule="evenodd"
                         d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
-                        clipRule="evenodd"
                     />
                 </svg>
             </button>
@@ -23,10 +21,10 @@ const Navbar = ()=>{
                 className={isNavExpanded?'navigation-menu expanded':'navigation-menu'}>
                 <ul>
                     <li>
-                        <a href='/#about'>About</a>
+                        <a href='/'>My Skills</a>
                     </li>
                     <li>
-                        <a href='/#resume'>Resume</a>
+                        <a href='/404'>Experience&Education</a>
                     </li>
                     <li>
                         <a href='/#projects'>Projects</a>

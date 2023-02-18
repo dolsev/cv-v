@@ -1,6 +1,6 @@
 import React from 'react'
-import Avatar from "../components/Avatar";
-import TopIntroduction from "../components/TopIntroduction";
+import Avatar from "./Avatar";
+import TopIntroduction from "./TopIntroduction";
 const topLayout = function (){
     const imageUrl = "./pxArt.png";
     const heading='Hi, my name is Vlad'
