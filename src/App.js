@@ -7,6 +7,8 @@ import MySkills from "./pages/MySkills";
 import TopLayout from "./components/TopLayout";
 import Contacts from "./components/Contacts";
 import MyFooter from "./UI/MyFooter/MyFooter";
+import Experience from "./pages/Experience";
+import Personal from "./pages/Personal";
 
 function App() {
 
@@ -18,6 +20,8 @@ function App() {
                       <Contacts/>
               <Routes>
                   <Route path="/" element={<MySkills />}></Route>
+                  <Route path="/experience" element={<Experience />}></Route>
+                  <Route path="/personal" element={<Personal/>}></Route>
                   <Route path="*" element={<Navigate replace to="/404"/>}/>}
                   <Route path="/404" element={<Error />} />
               </Routes>

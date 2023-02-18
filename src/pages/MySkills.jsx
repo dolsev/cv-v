@@ -56,6 +56,7 @@ const MySkills = ()=>{
             <SkillsList skills={skills} />
         </div>
         <div className="other-skills">
+            <h3>Soft Skills:</h3>
             {otherSkills.map((skill, index) => <p key={index}>{skill}</p>)}
     </div>
 

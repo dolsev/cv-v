@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import {Link} from 'react-router-dom'
 import './navbar.css'
 const Navbar = ()=>{
     const [isNavExpanded, setIsNavExpanded] = useState(false)
@@ -21,16 +22,16 @@ const Navbar = ()=>{
                 className={isNavExpanded?'navigation-menu expanded':'navigation-menu'}>
                 <ul>
                     <li>
-                        <a href='/'>My Skills</a>
+                        <Link to='/'>My Skills</Link>
                     </li>
                     <li>
-                        <a href='/404'>Experience&Education</a>
+                        <Link to='/experience'>Experience&Education</Link>
                     </li>
                     <li>
-                        <a href='/#projects'>Projects</a>
+                        <Link to='/projects'>Projects</Link>
                     </li>
                     <li>
-                        <a href='/#projects'>Personal</a>
+                        <Link to='/personal'>Personal</Link>
                     </li>
                 </ul>
             </div>
