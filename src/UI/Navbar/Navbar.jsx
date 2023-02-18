@@ -27,9 +27,11 @@ const Navbar = ()=>{
                     <li onClick={()=>setIsNavExpanded(!isNavExpanded)}>
                         <Link to='/experience'>Experience&Education</Link>
                     </li>
-                    <li onClick={()=>setIsNavExpanded(!isNavExpanded)}>
+                    {/*
+                        <li onClick={()=>setIsNavExpanded(!isNavExpanded)}>
                         <Link to='/projects'>Projects</Link>
                     </li>
+                    */}
                     <li onClick={()=>setIsNavExpanded(!isNavExpanded)}>
                         <Link to='/personal'>Personal</Link>
                     </li>
