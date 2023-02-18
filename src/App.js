@@ -9,6 +9,7 @@ import Contacts from "./components/Contacts";
 import MyFooter from "./UI/MyFooter/MyFooter";
 import Experience from "./pages/Experience";
 import Personal from "./pages/Personal";
+import Projects from "./pages/Projects";
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
               <Routes>
                   <Route path="/" element={<MySkills />}></Route>
                   <Route path="/experience" element={<Experience />}></Route>
+                  <Route path="/projects" element={<Projects/>}></Route>
                   <Route path="/personal" element={<Personal/>}></Route>
                   <Route path="*" element={<Navigate replace to="/404"/>}/>}
                   <Route path="/404" element={<Error />} />
