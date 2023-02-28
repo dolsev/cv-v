@@ -1,0 +1,10 @@
+.centered-box .container .projects .project .projLink {
+  text-decoration: none;
+  color: #33230c;
+}
+.centered-box .container .projects .project img {
+  height: 200px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=Projects.css.map */

@@ -2,14 +2,14 @@ import React from 'react'
 import './myskills.css'
 
 const skills = [
-    { name: 'Java-Script', hearts: 5, emptyHearts:2  },
-    { name: 'React', hearts: 4, emptyHearts: 3 },
-    { name: 'CSS', hearts: 5, emptyHearts: 2 },
+    { name: 'Java-Script', hearts: 6, emptyHearts:1  },
+    { name: 'React', hearts: 5, emptyHearts: 2 },
+    { name: 'CSS/SASS', hearts: 5, emptyHearts: 2 },
     { name: 'English', hearts: 7 },
-    { name: 'npm-router', hearts: 3, emptyHearts: 4 },
+    { name: 'npm-router', hearts: 5, emptyHearts: 2 },
     { name: 'Webpack', hearts: 5, emptyHearts: 2 },
     { name: 'Git', hearts: 5, emptyHearts: 2 },
-    { name: 'Figma', hearts: 3, emptyHearts: 4 },
+    { name: 'Figma', hearts: 4, emptyHearts: 3 },
     { name: 'Photoshop', hearts: 5, emptyHearts: 2 }
 ];
 
