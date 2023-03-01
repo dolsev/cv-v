@@ -44,6 +44,8 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: space-around;
+    height: 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -57,4 +59,8 @@
 }
 .orange-border{
     border: 2px solid #EDA93E;
+}
+
+h3:nth-child(odd){
+    color:#694D2E;
 }
