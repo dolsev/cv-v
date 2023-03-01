@@ -14,10 +14,11 @@ import Projects from "./pages/Projects";
 function App() {
 
   return (
-      <div className='full-page'>
           <BrowserRouter>
                   <Navbar/>
-                      <TopLayout/>
+              <div className='full-page'>
+
+              <TopLayout/>
                       <Contacts/>
               <Routes>
                   <Route path="/" element={<MySkills />}></Route>
@@ -27,9 +28,10 @@ function App() {
                   <Route path="*" element={<Navigate replace to="/404"/>}/>}
                   <Route path="/404" element={<Error />} />
               </Routes>
+              </div>
+
               <MyFooter/>
           </BrowserRouter>
-      </div>
   )
 }
 

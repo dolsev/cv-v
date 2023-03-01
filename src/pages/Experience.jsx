@@ -39,9 +39,9 @@ const Experience = function (){
         <div className="work-experience container spacing-150">
             {workExperience.map((job) => (
                 <div key={job.company} className="job">
-                    <h2>
+                    <h3>
                         {job.startDate} - {job.endDate}
-                    </h2>
+                    </h3>
                     <h3>{job.duration}</h3>
                     <h3>{job.company}</h3>
                     <h4>{job.position}</h4>
@@ -50,9 +50,12 @@ const Experience = function (){
                             <li key={index}>{task}</li>
                         ))}
                     </ul>
+                    <hr/>
+
                 </div>
             ))}
         </div>
+
          </div>
     );
 

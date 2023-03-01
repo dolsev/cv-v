@@ -29,11 +29,11 @@ function Skill({ name, hearts, emptyHearts = 0 }) {
 
     return (
         <div className="skill">
-            <div className="skill-name">{name}</div>
-            <div className="skill-hearts">
+            <h3 className="skill-name">{name}</h3>
+            <h3 className="skill-hearts">
                 {fullHearts.map((heart, index) => <span key={index} className="heart">{heart}</span>)}
                 {emptyHrts.map((heart, index) => <span key={index} className="heart">{heart}</span>)}
-            </div>
+            </h3>
         </div>
     );
 }
@@ -51,13 +51,13 @@ const MySkills = ()=>{
 
 <div className='centered-box'>
     <div className='container'>
-        <div><h1 className='section-name'>My Skills</h1></div>
+       <h2 className='section-name'>My Skills</h2>
         <div className="skills-container">
             <SkillsList skills={skills} />
         </div>
         <div className="other-skills">
-            <h3>Soft Skills:</h3>
-            {otherSkills.map((skill, index) => <p key={index}>{skill}</p>)}
+            <h2 className='soft-skills'>Soft Skills:</h2>
+            {otherSkills.map((skill, index) => <h3 key={index}>{skill}</h3>)}
     </div>
 
     </div>
