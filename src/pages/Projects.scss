@@ -1,14 +1,27 @@
-.centered-box{
-  .container{
-    .projects{
-      .project{
-      .projLink{
-        text-decoration: none;
-color:#33230c      }
-      img{
-        height: 200px;
-        cursor:pointer;
-      }}
+.centered-box {
+  .container {
+    .projects {
+      .project {
+        .projLink {
+          text-decoration: none;
+          color: #33230c;
+        }
+        img {
+          height: 200px;
+          cursor: pointer;
+          animation-name: scale;
+          animation-duration: 1s;
+        }
+      }
     }
+  }
+}
+
+@keyframes scale {
+  from {
+    transform: scale(10%);
+  }
+  to {
+    transform: scale(100%);
   }
 }

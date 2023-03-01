@@ -36,7 +36,7 @@ const Experience = function (){
     ];
      return (
          <div className='centered-box '>
-        <div className="work-experience container spacing-150">
+             <div className="work-experience container spacing-150">
             {workExperience.map((job) => (
                 <div key={job.company} className="job">
                     <h3>

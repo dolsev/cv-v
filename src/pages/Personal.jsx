@@ -10,7 +10,7 @@ const Personal = function (){
     return <div className='centered-box'><div className='container spacing-150'>
         <h3>Personal</h3>
         {bio.map((paragraph, index) => (
-            <p key={index}>{paragraph}</p>
+            <li key={index}>{paragraph}</li>
         ))}
 
     </div></div>
