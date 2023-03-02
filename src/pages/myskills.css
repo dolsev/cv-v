@@ -56,6 +56,9 @@
         writing-mode:horizontal-tb;
         text-orientation: upright;
     }
+    .other-skills{
+        height: 300px;
+    }
 }
 .orange-border{
     border: 2px solid #EDA93E;

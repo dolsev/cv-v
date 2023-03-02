@@ -99,13 +99,17 @@ p,li{
 }
 
 @media screen and (max-width: 768px) {
+
+    h2.section-name,h2.soft-skills{
+        display: none;
+    }
     .avatar{
         height: 150px;
         width: 150px;
     }
     .avatar-div{
         height: 150px;
-        width: 150px;
+        width: 300px;
     }
     .right-top{
         height: 150px;
