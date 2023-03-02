@@ -17,7 +17,6 @@ function App() {
           <BrowserRouter>
                   <Navbar/>
               <div className='full-page'>
-
               <TopLayout/>
                       <Contacts/>
               <Routes>
