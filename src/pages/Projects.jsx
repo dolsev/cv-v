@@ -9,7 +9,7 @@ const Projects = function (){
                 <div className='projects'>
                     <div className='project'>
                         <Link className='projLink' to={'https://chimerical-flan-f94fec.netlify.app/'}>
-                        <p>Furniture Web-Site Design</p>
+                        <p>Furniture Web-Site Design and Functionality</p>
                         <img className='imgProject' alt='' src='/furniture-pic.png'/>
                         </Link>
                     </div>
