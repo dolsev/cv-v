@@ -52,11 +52,9 @@ const MySkills = ()=>{
 <div className='centered-box'>
     <div className='container'>
         <div className='hard-skills'>
-        <h2 className='section-name'>Hard Skills</h2>
         <SkillsList skills={skills} />
         </div>
         <div className="other-skills">
-            <h2 className='soft-skills'>Soft Skills:</h2>
             {otherSkills.map((skill, index) => <h3 className='soft-skill' key={index}>{skill}</h3>)}
     </div>
 
