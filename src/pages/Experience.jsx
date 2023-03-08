@@ -5,7 +5,7 @@ const Experience = function (){
         {
             startDate: "October 2022",
             endDate: "Present",
-            company: "IP Platonov",
+            company: "FW games",
             position: "Web Developer",
             tasks: [
                 "Development of new functionality for the company's landing pages on React and CSS",
