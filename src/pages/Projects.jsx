@@ -8,7 +8,7 @@ const Projects = function (){
             <h3>My Recent Projects:</h3>
                 <div className='projects'>
                     <div className='project'>
-                        <Link className='projLink' to={'/https://amazing-parfait-82489c.netlify.app/'}>
+                        <Link className='projLink' to={'https://amazing-parfait-82489c.netlify.app/'}>
                             <p>Game Developers Site Design and full Functionality</p>
                             <img className='imgProject' alt='' src='/gamedev-pic.png'/>
                         </Link>
