@@ -1,18 +1,16 @@
 import React from 'react'
 
 const Personal = function (){
-    const bio = [
-        "Before starting my career in IT, I worked as a Tax Consultant for 5 years at EY and resigned as experienced Senior Consultant.",
-        "The best part of my work at EY was working with IT department, which started at the beginning of 2022 (I began to feel happy at work). Due to highly positive experience with my new role, I decided to become a developer and devote all my time to IT and everything related to it.",
-        "I have been working in Front-End for more than a year. After working at EY, I completed the Web Development course with Angela Yu on Udemy and I continue to take courses in React/JS.",
-        "I am passionate about football, play the guitar, do video editing, and 3D modeling.",
-    ];
-    return <div className='centered-box'><div className='container spacing-150'>
-        <h3>Personal</h3>
-        {bio.map((paragraph, index) => (
-            <li key={index}>{paragraph}</li>
-        ))}
 
-    </div></div>
+    return <div className='centered-box'>
+        <div className='container personal'>
+        <h3>About Me:</h3>
+
+           <li>As a Front-End React developer in a span of 1,5 years <strong>I helped business to build</strong>: CRM systems, chat application, landing pages, e-marketplace and one-page forms for personal customers.</li>
+            <li>In 2017 I graduated from Lomonosov's Moscow State University with Law degree and worked successfully as Senior Tax Consultant for 5 years, than in 2022 switched to Front-End development on the fly in the same company due to business needs.</li>
+            <li><strong>I am used to handling work in time and I have business thinking.</strong> My professional dream - is to build my first project from scratch as a TeamLead.</li>
+
+    </div>
+    </div>
 }
 export default Personal
