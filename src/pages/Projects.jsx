@@ -23,7 +23,7 @@ const Projects = function (){
                     <div className='project'>
                         <Link className='projLink' to={'https://amazing-parfait-82489c.netlify.app/'}>
                             <div className='projDescription'>
-                                <h3>GAMING COMPANY</h3>
+                                <h3>GAMING-COMPANY</h3>
                                 <p>A landing selling page for game-developers company with presentation of investors and Roadmap for development process.
                                     </p>
                                 <p><strong>React, Styled Components</strong></p>

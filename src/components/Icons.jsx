@@ -1,6 +1,6 @@
 import React from "react";
 
-const Icons = ({}) => {
+const Icons = () => {
     return (
 <div className='icons'>
     <a className='icon' href="https://github.com/dolsev?tab=repositories"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" /></a>
