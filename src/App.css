@@ -26,6 +26,7 @@ body {
     justify-content: center;
     padding: 15px;
     width: 900px;
+    overflow: hidden;
 }
 
 .contacts {
@@ -208,38 +209,50 @@ hr{
 }
 
 @media screen and (max-width: 930px){
+    .full-page{
+        align-content: center;
+    }
     .centered-box{
-        width:320px;
+        width:100%;
         padding: 5px;
+        margin:0;
     }
     .container {
         padding: 5px 10px;
         flex-wrap: wrap;
-        width: 320px;
+        width:100%;
         gap:5px;
         line-height: 13px;
     }
     .contacts{
-        width:320px;
+        width:100%;
     }
     .top-layout{
         flex-direction: column;
     }
-    .avatar-div{
-        width:320px;
+
+    .avatar{
     }
     .right-top{
-        width: 320px;
+        width:100%;
     }
     .projLink{
         flex-direction: column;
     }
     .imgProject{
-        width:260px;
+        width:100%;
     }
     h1{font-size: 15px}
     h2{font-size:14px}
     h3{font-size: 13px}
     h4{font-size: 11px}
     p,li{font-size: 10px}
+}
+@media screen and (max-width: 320px){
+    .avatar-div{
+        width: 100%;
+    }
+    .avatar{
+        width:100%
+    }
 }
