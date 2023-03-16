@@ -256,3 +256,40 @@ hr{
         width:100%
     }
 }
+
+.resume-box{
+    position:relative;
+
+
+}
+.button-menu{
+    position:relative;
+}
+.buttons{
+    background: #EDA93E;
+    position:absolute;
+    padding: 2px;
+    bottom: -7px;
+    right:-5px;
+    border: 2px solid black;
+
+
+}
+.resume-button{
+background: none;
+    font-family: 'Press Start 2P', cursive;
+    cursor:pointer;
+    padding: 5px;
+
+}
+.hr-button{
+    background: black;
+    margin:2px 0;
+    width:100%
+}
+.resume-button:hover{
+color: #694D2E;
+}
+.language-button:hover{
+    color: #694D2E;
+}

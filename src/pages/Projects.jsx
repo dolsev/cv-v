@@ -18,6 +18,7 @@ const Projects = function (){
                         </div>
                         <img className='imgProject' alt='Furniture e-commercial' src='/furniture-pic.jpg'/>
                         </Link>
+                        <a className='icon' href="https://github.com/dolsev/cozy_furniture"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" />Code</a>
                     </div>
                     <hr/>
                     <div className='project'>
@@ -30,6 +31,8 @@ const Projects = function (){
                             </div>
                             <img className='imgProject' alt='Gaming Company' src='/gamedev-pic.png'/>
                         </Link>
+                        <a className='icon' href="https://github.com/dolsev/game-website"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" />Code</a>
+
                     </div>
                     <hr/>
                     <div className='projects'>
@@ -42,6 +45,7 @@ const Projects = function (){
                                 </div>
                                 <img className='imgProject' alt='' src='/chat-pic.jpg'/>
                             </Link>
+                            <a className='icon' href="https://github.com/dolsev/chat-app-APIs"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" />Code</a>
                         </div>
                 </div>
     </div>
