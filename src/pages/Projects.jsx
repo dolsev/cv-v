@@ -39,6 +39,20 @@ const Projects = function (){
                         <div className='project'>
                             <Link className='projLink' to={'https://phenomenal-heliotrope-4f6d1e.netlify.app/'}>
                                 <div className='projDescription'>
+                                    <h3>POTTER CHARACTERS</h3>
+                                    <p>A simple app, which allows you to choose your favourite characters from Harry Potter and filter them by your likes. You can even delete them entirely :).</p>
+                                    <p><strong>React-Redux-LocalStorage</strong></p>
+                                </div>
+                                <img className='imgProject' alt='' src='/hp-pic.png'/>
+                            </Link>
+                            <a className='icon' href="https://github.com/dolsev/potteriana-characters"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" />Code</a>
+                        </div>
+                    </div>
+                    <hr/>
+                    <div className='projects'>
+                        <div className='project'>
+                            <Link className='projLink' to={'https://phenomenal-heliotrope-4f6d1e.netlify.app/'}>
+                                <div className='projDescription'>
                                     <h3>CHAT EZ</h3>
                                     <p>A chat micro-service built for web-site based on API.</p>
                                     <p><strong>React-SCSS</strong></p>
@@ -47,8 +61,9 @@ const Projects = function (){
                             </Link>
                             <a className='icon' href="https://github.com/dolsev/chat-app-APIs"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" />Code</a>
                         </div>
-                </div>
+
     </div>
+        </div>
         </div>
         </div>
 }
