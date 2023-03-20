@@ -27,6 +27,7 @@ const Icons = () => {
             <a className='icon' href="https://www.instagram.com/andrey.da/"><img src="https://cdn-icons-png.flaticon.com/512/1409/1409946.png" alt="Instagram" /></a>
             <a className='icon' href="https://www.codewars.com/users/dolsev"><img src="https://docs.codewars.com/logo.svg" alt="CodeWars" /></a>
             <a className='icon' href="mailto:vladislav.smirnov.work@yandex.ru"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" /></a>
+            <a className='icon' href="https://t.me/reactivdev"><img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram" /></a>
 
 </div>
 
