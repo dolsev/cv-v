@@ -3,7 +3,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: #251C19;
-    font-family: 'Press Start 2P', sans-serif;
+    font-family: Orbitron, sans-serif;
 }
 
 .color-palette {
@@ -105,22 +105,22 @@ h1 {
 
 h2 {
     color: #42311e;
-    font-size: 22px;
+    font-size: 24px;
 }
 
 h3 {
 
-    font-size: 18px;
+    font-size: 20px;
 }
 
 h4 {
     color: #5e472c;
 
-    font-size: 16px;
+    font-size: 18px;
 }
 
 p, li {
-    font-size: 14px;
+    font-size: 16px;
     color: rgba(0, 0, 0, 0.75);
 }
 
