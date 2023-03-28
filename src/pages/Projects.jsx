@@ -5,7 +5,6 @@ const Projects = function (){
         return <div className='centered-box'>
             <div className='container'>
             <h3>My portfolio:</h3>
-                <p>Each project represents <strong>a unique piece of development.</strong></p>
                 <div className='projects'>
                     <div className='project'>
                         <hr/>

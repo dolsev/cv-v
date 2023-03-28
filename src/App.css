@@ -53,6 +53,7 @@ body {
     gap:10px;
     width:900px;
     justify-content: center;
+    align-items: center
 }
 .icon:hover {
     animation-name: rotate;
@@ -86,6 +87,7 @@ a img:hover {
 }
 
 .right-top {
+    justify-content: center;
     height: 300px;
     background-color: #FDECD8;
     display: flex;
@@ -93,15 +95,12 @@ a img:hover {
     text-align: center;
     align-items: center;
     color: #694D2E;
-    line-height: 15px;
 
 }
 
 h1 {
     font-size: 26px;
     color: #422e10;
-    letter-spacing: 5px;
-    line-height: 1.2;
 }
 
 h2 {
@@ -181,14 +180,14 @@ p, li {
 .container {
     display: flex;
     background-color: #FDECD8;
-    padding: 50px 100px;
+    padding: 10px 20px;
     flex-wrap: wrap;
     width: 900px;
 }
 .personal{
     display: flex;
     gap:15px;
-    height: 350px;
+    height: 250px;
     line-height: 20px;
 }
 .imgProject{
@@ -197,6 +196,8 @@ p, li {
 }
 .projLink{
     display: flex;
+    justify-content: space-between;
+
 }
 .projDescription{
     display: flex;
@@ -277,7 +278,6 @@ hr{
 }
 .resume-button{
 background: none;
-    font-family: 'Press Start 2P', cursive;
     cursor:pointer;
     padding: 5px;
 
