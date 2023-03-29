@@ -72,7 +72,7 @@ const Projects = function (){
                                 </div>
                                 <img className='imgProject' alt='CHAT EZ' src='/chat-pic.jpg'/>
                             </Link>
-                            <a className='icon' href="https://chat-ez.netlify.app/"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" />Code</a>
+                            <a className='icon' href="https://github.com/dolsev/chat-app-APIs/"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" />Code</a>
                         </div>
 
     </div>
