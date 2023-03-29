@@ -1,25 +1,12 @@
-import React,{useState} from "react";
+import React from "react";
 
 const Icons = () => {
-    const [showResumeMenu, setShowResumeMenu] = useState(false);
-    const handleResumeClick = () => {
-        setShowResumeMenu(!showResumeMenu);
-    };
 
     return (
 <div className='icons'>
     <div className='resume-box'>
-    <button className='resume-button' onClick={handleResumeClick}>Resume</button>
-    {showResumeMenu && (
-        <div className='button-menu'>
-            <div className='buttons'>
-            <a className='language-button' href="/Смирнов%20Владислав_Frontend_Developer.pdf">Русский</a>
-            <hr className='hr-button' />
-            <a className='language-button' href="/Smirnov_Vladislav_Frontend_Developer_React.pdf">English</a>
-            </div>
-        </div>
+    <a className='resume-button' href='/Smirnov Vladislav-CV.pdf' download>Resume</a>
 
-    )}
     </div>
             <a className='icon' href="https://github.com/dolsev?tab=repositories"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" /></a>
             <a className='icon' href="https://www.linkedin.com/in/vladislav-smirnov-914048154/"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" /></a>
