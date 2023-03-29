@@ -35,7 +35,7 @@ const Projects = function (){
                     </div>
                     <hr/>
                     <div className='project'>
-                        <Link className='projLink' to={'https://amazing-parfait-82489c.netlify.app/'}>
+                        <Link className='projLink' to={'https://fight-worlds.netlify.app//'}>
                             <div className='projDescription'>
                                 <h3>FW GAMING</h3>
                                 <p>A landing selling page for game-developers company with presentation of investors and Roadmap for development process.
