@@ -277,7 +277,10 @@ hr{
 
 }
 .resume-button{
-background: none;
+background: #E5BB72;
+    font-size: 22px;
+    border:1px solid #251C19;
+    border-radius: 5px;
     cursor:pointer;
     padding: 5px;
 
