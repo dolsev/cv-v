@@ -5,7 +5,7 @@ const Icons = () => {
     return (
 <div className='icons'>
     <div className='resume-box'>
-    <a className='resume-button' href='/Смирнов_Владислав_Фронтенд_Разработчик.pdf' download>Resume</a>
+    <a className='resume-button' href='/SV_Front.pdf' download>Resume</a>
 
     </div>
             <a className='icon' href="https://github.com/dolsev?tab=repositories"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" /></a>
